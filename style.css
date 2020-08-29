@@ -1,0 +1,52 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 微軟正黑體;
+  box-sizing: border-box;
+}
+#halle {
+    width: 100%;
+    /* vh 螢幕高度 */
+    height: 100vh;
+    background-image: url(./img/halle.jpg);
+    /* 背景-尺寸：填滿 - 50%、500px */
+    background-size: cover;
+    color: white;
+    /* 背景-附著：固定 */
+    background-attachment: fixed;
+}
+#halle nav {
+  padding: 30px;
+}
+#halle a {
+  color: slategrey;
+  font-size: 20px;
+  padding: 0 15px;
+  /* 轉場-秒數 */
+  transition: 0.3s;   
+}
+#halle a:hover {
+  color: brown;
+}
+#halle p{
+  text-align: center;
+  font-size: 45px;
+  font-weight: bold;
+  color:#c5ad8f;
+  margin-top: 100px;
+  opacity: 0.9;
+}
+#halle hr {
+  width: 500px;
+  margin: 0 auto;
+}
+#halle h1 {
+  text-align: center;
+  font-size: 100px;
+  color: darkgrey;
+  opacity: 0.7;
+}
+#news {
+  height: 500px;
+  background: #eee;
+}
