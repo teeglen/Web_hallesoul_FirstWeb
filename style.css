@@ -103,9 +103,64 @@ a.button:hover {
   backdrop-filter: blur(2px);
   font-weight: 100px;
 }
-#conten {
+
+#content {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+#content div {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-gap: 50px;
-  margin: 0 auto;
+}
+
+#content a {
+  height: 350px;
+  line-height: 350px;
+  text-decoration: none;
+  color: white;
+  font-size: 32px;
+  text-align: center;
+}
+#content a span {
+  display: block;
+  backdrop-filter: blur(3px) opacity(90%);
+  transition: 0.5s;
+}
+#content a span:hover{
+  backdrop-filter: blur(3px) opacity(20%);
+}
+#content #about {
+  background-image: url(./img/about.jpg);
+}
+#content #contan {
+  background-image: url(./img/conten.jpg);  
+}
+
+#map {
+  width: 100%;
+  height: 350px;
+  margin-top: 150px;
+}
+
+footer {
+  background: #252525;
+  text-align: center;
+  padding: 100px 0;
+  color: white;
+}
+footer h2 {
+  font-weight: 100;
+  letter-spacing: 10px;
+  padding-left: 10px;
+  padding: 50px 0 40px;
+  font-size: 30px;
+}
+footer p {
+  padding: 20px;
+  font-size: 20px;
+  color: #aaa;
+  letter-spacing: 3px;
+  padding-left: 3px;
 }
