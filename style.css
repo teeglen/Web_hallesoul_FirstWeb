@@ -20,7 +20,7 @@
     /* 背景-附著：固定 */
     background-attachment: fixed;
 }
-#halle nav {
+#halle nav,#halle-about nav {
   padding: 30px;
 }
 #halle a {
@@ -157,10 +157,60 @@ footer h2 {
   padding: 50px 0 40px;
   font-size: 30px;
 }
+footer h2 a {
+  text-decoration: none;
+  color: white;
+  transition: 0.5s;
+}
+footer h2 a:hover{
+  color:rgb(122, 23, 23);
+}
 footer p {
   padding: 20px;
   font-size: 20px;
   color: #aaa;
   letter-spacing: 3px;
   padding-left: 3px;
+}
+#halle-about nav {
+  backdrop-filter: opacity(90%);
+}
+#halle-about {
+  width: 100%;
+  /* vh 螢幕高度 */
+  height: 400px;
+  background-image: url(./img/about.jpg);
+  /* 背景-尺寸：填滿 - 50%、500px */
+  background-size: cover;
+  color: white;
+  /* 背景-附著：固定 */
+  background-attachment: fixed;
+  backdrop-filter: opacity(90%);
+}
+#halle-about a {
+  color: slategrey;
+  font-size: 20px;
+  padding: 0 15px;
+  /* 轉場-秒數 */
+  transition: 0.3s;   
+}
+#halle-about a:hover {
+  color: #fff;
+}
+#halle-about h2 {
+  text-align: center;
+  font-size: 50px;
+  color: #fff;
+  letter-spacing: 20px;
+  padding-left: 20px;
+  backdrop-filter: opacity(90%);
+  height: 30vh;
+  line-height: 20vh;
+}
+/* 關於我內文 */
+#about-content{
+  width: 1200px;
+  margin: 0 auto;
+  background: white;
+  
 }
