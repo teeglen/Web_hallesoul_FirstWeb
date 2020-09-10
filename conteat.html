@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="zh">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jerry 哈雷館|聯絡我</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon">
+</head>
+
+<body>
+    <div id="halle-about">
+        <nav>
+            <a href="./index.html">Jerry哈雷</a>
+            <a href="./about.html">關於我</a>
+            <a href="./conteat.html">聯絡我</a>
+        </nav>
+        <h2>Jerry哈雷館</h2>
+    </div>
+    <section id="conteat-content">
+        <form method="post" id="form-self">
+            <label for="name">姓名</label><br>
+            <input type="text" id="name" required placeholder="請輸入姓名">
+            <label for="mail">Email</label><br>
+            <input type="email" id="mail" required placeholder="請輸入email">
+
+            <!--  fieldset 區域、legend 區域標題  -->
+            <fieldset>
+                <legend>性別</legend>
+                <label for="man">男生</label>
+                <input type="radio" id="man" name="sex" value="man" required></input>
+                <label for="woman">女生</label>
+                <input type="radio" id="woman" name="sex" value="woman" required></input>
+            </fieldset>
+
+            <label for="message">建議留言</label>
+            <!--  textarea 文字區域、cols 欄、rows 列  -->
+            <textarea name="message" id="message" cols="50" rows="5"></textarea><br>
+
+            <!--  checkbox 核按選鈕  -->
+            <input type="checkbox" id="agree">
+            <label for="agree">我同意本平台的規定。</label><br>
+
+            <div id="buttons">
+                <!--  reset 重新輸入、submit 確認送出  -->
+                <input type="reset" value="重新輸入">
+                <input type="submit" value="確認送出">
+            </div>
+        </form>
+    </section>
+    <footer>
+        <h2><a href="./index.html">Jerry哈雷館</a></h2>
+        <div>
+            <a href="#"><img src="./img/fb.png" alt="fb"></a>
+            <a href="#"><img src="./img/ig.png" alt="ig"></a>
+            <a href="#"><img src="./img/email.png" alt="email"></a>
+        </div>
+        <P>&copy;Jerry</P>
+    </footer>
+</body>
+
+</html>

@@ -7,7 +7,6 @@
 
   body {
     background: #eee;
-    height: 4000px;
   }
 #halle {
     width: 100%;
@@ -212,5 +211,108 @@ footer p {
   width: 1200px;
   margin: 0 auto;
   background: white;
-  
+  padding: 50px 80px;
+  margin-top: 80px;
+  margin-bottom: 100px;
+}
+#about-content h3 {
+  text-align: center;
+  padding: 20px;
+  color: #ddd;
+  letter-spacing: 10px;
+  padding-left: 10px;
+  font-weight: 100;
+  /* 字母大寫 */
+  text-transform: uppercase;
+}
+
+#about-content hr{
+  width: 600px;
+  margin: 0 auto;
+}
+
+#about-content h2{
+  text-align: center;
+  padding: 30px;
+  color: #aaa;
+  letter-spacing: 10px;
+  padding-left: 10px;
+  font-weight: 100;
+}
+
+#about-content #about1 {
+  height: 350px;
+  background-image: url(./img/about1.jpg);
+  /* cover：圖片寬高比不變、鋪滿整個容器的寬高 */
+  background-size: cover;
+}
+#about-content #about2 {
+  height: 350px;
+  background-image: url(./img/about2.jpg);
+  /* cover：圖片寬高比不變、鋪滿整個容器的寬高 */
+  background-size: cover;
+}
+#about-content #about3 {
+  height: 350px;
+  background-image: url(./img/about3.jpg);
+  /* cover：圖片寬高比不變、鋪滿整個容器的寬高 */
+  background-size: cover;
+}
+#about-content p{
+  padding: 30px 0;
+  line-height: 2;
+  color: #888;
+}
+#form-self{
+  width: 500px;
+  padding: 10px 20px;
+  margin: 100px auto;
+  box-shadow:5px 5px 10px rgba(0,0,0,0.3);
+  background: #CCEEFF;
+  border-radius:10px;
+}
+
+#form-self #name,#form-self #pw,#form-self #mail,#form-self #job,#form-self #message {
+  width: 100%;
+  padding: 3px 0px;
+  font-size: 16px;
+  margin: 8px 0;
+  /*   邊框：寬度 樣式 顏色  */
+  border:1px solid rgba(0,0,0,0.1);
+}
+/* 保留文字：偽元素 - 沒有 HTML 但卻顯示在畫面上 */
+#form-self ::placeholder {
+  color: #ddd;
+}
+
+#form-self fieldset{
+  padding:5px;
+  margin: 8px 0;
+  border:1px solid rgba(0,0,0,0.3);
+}
+
+#form-self legend{
+  padding: 0 8px;
+}
+#form-self #agree {
+  width: 15px;
+  height: 15px;
+}
+#form-self #buttons{
+  text-align:center;
+}
+/* 元素[屬性名稱=值] */
+#form-self input[type=reset],#form-self input[type=submit] {
+  margin: 10px 10px;
+  padding: 10px 50px;
+  color:white;
+  background: 	#5599FF;
+  border:0;
+/*  轉場：轉場時間 s 秒數 */
+  transition:0.5s;
+}
+
+/* 滑入 元素:hover */
+#form-self input[type=reset]:hover,#form-self input[type=submit]:hover{
+  background:#888888;
 }
