@@ -54,11 +54,12 @@
   width: 1200px;
   height: 100vh;
   margin: 0 auto;
-  padding: 50px;
+  padding: 100px 0;
   display: grid;
   grid-template-columns: 1fr 1fr;
+  /* 格線間隙 */
   grid-gap: 50px;
-  background-color: #fff;
+  text-align: center;
 }
 
 #news #news-left {
@@ -71,7 +72,35 @@
   background-image: url(./img/new-right.jpg);
 }
 #news >div {
-  text-align: center;
+  background-color: #fff;
+}
+
+#news h3 {
+  color: #aaa;
+  padding: 10px;
+  font-weight: 100;
+  /* 文字間的字距 */
+  letter-spacing: 5px;
+  /* 控制文章字母的大小寫 */
+  text-transform: uppercase;
+}
+
+#news h1 {
+  padding: 10px;
+  font-size: 32px;
+  font-weight: 100;
+}
+
+#news hr {
+  width: 350px;
+  margin: 0 auto;
+}
+
+#news p {
+  padding: 30px;
+  text-align: left;
+  line-height: 2;
+  height: 150px;
 }
 
 a.button {
@@ -86,9 +115,7 @@ a.button:hover {
   color: #fff;
   background-color:#aaa;
 }
-#news p {
-  padding: 30px;
-}
+
 #box {
   background-attachment: fixed;
   background-image: url(./img/box.jpg);
@@ -106,6 +133,15 @@ a.button:hover {
 #content {
   width: 1200px;
   margin: 0 auto;
+}
+
+#content h1 {
+  text-align: center;
+  font-weight: bolder;
+  color: rosybrown;
+  letter-spacing: 20px;
+  padding-left: 20px;
+  margin: 20px auto;
 }
 
 #content div {
