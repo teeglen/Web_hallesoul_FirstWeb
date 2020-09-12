@@ -241,19 +241,19 @@ footer p {
 }
 
 #about-content #about1 {
-  height: 350px;
+  height: 600px;
   background-image: url(./img/about1.jpg);
   /* cover：圖片寬高比不變、鋪滿整個容器的寬高 */
   background-size: cover;
 }
 #about-content #about2 {
-  height: 350px;
+  height: 600px;
   background-image: url(./img/about2.jpg);
   /* cover：圖片寬高比不變、鋪滿整個容器的寬高 */
   background-size: cover;
 }
 #about-content #about3 {
-  height: 350px;
+  height: 600px;
   background-image: url(./img/about3.jpg);
   /* cover：圖片寬高比不變、鋪滿整個容器的寬高 */
   background-size: cover;
