@@ -141,7 +141,7 @@ a.button:hover {
   color: rosybrown;
   letter-spacing: 20px;
   padding-left: 20px;
-  margin: 20px auto;
+  margin: 20px 0;
 }
 
 #content div {
